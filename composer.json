@@ -1,0 +1,38 @@
+{
+    "name": "process-drive/laravel-js-route",
+    "description": "This library is using for call route method inside the javascript file",
+    "type": "library",
+    "keywords": ["laravel", "route"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Kaviyarasan Shanmugam",
+            "email": "kaviyarasanshanmugam1999@gmail.com",
+            "role": "Software Developer"
+        }
+    ],
+    "require": {
+        
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "ProcessDrive\\LaravelJsRoute\\": "src"
+        }
+    },
+    "autoload-dev": {
+        
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ProcessDrive\\LaravelJsRoute\\RouteServiceProvider"
+            ]
+        }
+    }
+}
