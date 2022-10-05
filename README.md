@@ -55,17 +55,17 @@ In javascript file you can use like this
 
 Route :
 ```
-laravelRoute(laravel route name here)
+route(laravel route name here)
 
-laravelRoute(users.index)
+route(users.index)
 
 ```
 
 Route with Params:
 ```
-laravelRoute(laravel route name here, laravel route parameter here like object)
+route(laravel route name here, laravel route parameter here like object)
 
-laravelRoute(users.edit, {userid: 1})
+route(users.edit, {userid: 1})
 
 ```
 
